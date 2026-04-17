@@ -1,0 +1,572 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Akash Suvarnkar — Data Analyst</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Outfit:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <!-- CURSOR -->
+  <div class="cursor" id="cursor"></div>
+  <div class="cursor-follower" id="cursor-follower"></div>
+
+  <!-- NOISE OVERLAY -->
+  <div class="noise"></div>
+
+  <!-- NAV -->
+  <nav id="navbar">
+    <div class="nav-inner">
+      <a class="nav-logo" href="#home">
+        <span class="logo-bracket">{</span>AS<span class="logo-bracket">}</span>
+      </a>
+      <ul class="nav-links">
+        <li><a href="#home" class="nav-link">Home</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#portfolio" class="nav-link">Projects</a></li>
+        <li><a href="#platforms" class="nav-link">Platforms</a></li>
+        <li><a href="#achievements" class="nav-link">Achievements</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+      <a class="nav-cta" href="#contact">Let's Talk</a>
+      <button class="hamburger" id="hamburger" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+    <div class="mobile-menu" id="mobileMenu">
+      <a href="#home" class="mob-link">Home</a>
+      <a href="#about" class="mob-link">About</a>
+      <a href="#portfolio" class="mob-link">Portfolio</a>
+      <a href="#platforms" class="mob-link">Platforms</a>
+      <a href="#achievements" class="mob-link">Achievements</a>
+      <a href="#contact" class="mob-link">Contact</a>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section id="home" class="hero">
+    <div class="hero-bg-grid"></div>
+    <div class="hero-glow"></div>
+    <div class="container hero-inner">
+      <div class="hero-text">
+        <div class="hero-eyebrow">
+          <span class="dot-pulse"></span>
+          Available for Hire
+        </div>
+        <h1 class="hero-title">
+          Turning Data<br>
+          Into <em>Decisions</em>
+        </h1>
+        <p class="hero-desc">
+          I'm <strong>Akash Suvarnkar</strong>, a data analyst who transforms messy datasets into clear,
+          compelling stories that help teams move faster and smarter.
+        </p>
+        <div class="hero-actions">
+          <a href="#portfolio" class="btn-primary">
+            <span>Explore My Work</span>
+            <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+              <path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+                stroke-linejoin="round" />
+            </svg>
+          </a>
+          <!-- <a href="mailto:suvarnkarakash06@gmail.com" class="btn-ghost">Contact Me</a> -->
+          <!-- Place your resume PDF at ./resume/Akash_Suvarnkar_Resume.pdf -->
+          <a href="./resume/data analyst Resume.pdf" download="Akash_Suvarnkar_Resume.pdf"
+            class="btn-ghost btn-resume">
+            <svg width="15" height="15" viewBox="0 0 15 15" fill="none">
+              <path d="M7.5 1v9M4 7l3.5 3.5L11 7M2 13h11" stroke="currentColor" stroke-width="1.5"
+                stroke-linecap="round" stroke-linejoin="round" />
+            </svg>
+            <span>Resume</span>
+          </a>
+        </div>
+        <div class="hero-stats">
+          <div class="stat">
+            <span class="stat-num" data-count="4">0</span><span class="stat-plus">+</span>
+            <p>Projects</p>
+          </div>
+          <div class="stat-div"></div>
+          <div class="stat">
+            <span class="stat-num" data-count="1">0</span><span class="stat-plus">+</span>
+            <p>Certifications</p>
+          </div>
+        </div>
+      </div>
+      <div class="hero-visual">
+        <div class="avatar-ring">
+          <div class="avatar-inner">
+            <img src="./images/as1.jpeg" alt="Akash Suvarnkar" class="avatar-img">
+          </div>
+          <svg class="ring-svg" viewBox="0 0 320 320">
+            <circle cx="160" cy="160" r="120" fill="none" stroke="gold" stroke-width="1" stroke-dasharray="6 10"
+              opacity="0.4" />
+            <circle cx="160" cy="160" r="105" fill="none" stroke="gold" stroke-width="0.5" opacity="0.2" />
+          </svg>
+          <div class="orbit-dot" style="--angle:30deg"></div>
+          <div class="orbit-dot" style="--angle:150deg"></div>
+          <div class="orbit-dot" style="--angle:270deg"></div>
+        </div>
+      </div>
+      <div class="float-card card-tools">
+        <span class="mono">skills.exe</span>
+        <div class="tools-row">
+          <span class="tool-tag">SQL</span>
+          <span class="tool-tag">Python</span>
+          <span class="tool-tag">Power BI</span>
+        </div>
+      </div>
+    </div>
+    <div class="scroll-hint">
+      <span>Scroll</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="about">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-label">// about me</span>
+        <h2 class="section-title">Data-Driven <em>& Dedicated</em></h2>
+      </div>
+      <div class="about-grid">
+        <div class="about-text reveal">
+          <p>I'm Akash Suvarnkar, a B.E. Computer Engineering student at PGMCOE, Pune (Expected 2026), with a strong
+            focus on data analytics and business intelligence. I discovered my passion for data when I realised
+            that numbers, when properly analysed, tell the most honest stories about how the world works.</p>
+          <p>I've worked on projects ranging from customer segmentation of 1M+ e-commerce records and India's
+            decade-long
+            trade data to statistical sales dashboards — blending SQL, Python, and Power BI to extract insights
+            that drive real decisions.</p>
+          <p>Outside of projects I'm always exploring new datasets, sharpening my SQL and Python skills, and building
+            end-to-end analytics pipelines from raw data to executive-ready dashboards.</p>
+          <!-- <a class="btn-primary" href="mailto:suvarnkarakash06@gmail.com">
+            <span>Get in Touch</span>
+            <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+              <path d="M2 4l6 5 6-5M2 4h12v9H2z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+                stroke-linejoin="round" />
+            </svg>
+          </a> -->
+        </div>
+        <div class="skills-wrap reveal">
+          <h3 class="skills-heading">Technical Skills</h3>
+          <div class="skills-list">
+            <div class="skill-row">
+              <div class="skill-meta"><span>SQL (MySQL · PostgreSQL)</span><span class="mono">90%</span></div>
+              <div class="skill-bar">
+                <div class="skill-fill" data-w="90"></div>
+              </div>
+            </div>
+            <div class="skill-row">
+              <div class="skill-meta"><span>Power BI</span><span class="mono">85%</span></div>
+              <div class="skill-bar">
+                <div class="skill-fill" data-w="85"></div>
+              </div>
+            </div>
+            <div class="skill-row">
+              <div class="skill-meta"><span>Python (Pandas · NumPy)</span><span class="mono">78%</span></div>
+              <div class="skill-bar">
+                <div class="skill-fill" data-w="78"></div>
+              </div>
+            </div>
+            <div class="skill-row">
+              <div class="skill-meta"><span>Excel</span><span class="mono">88%</span></div>
+              <div class="skill-bar">
+                <div class="skill-fill" data-w="88"></div>
+              </div>
+            </div>
+            <div class="skill-row">
+              <div class="skill-meta"><span>Statistics & RFM Analysis</span><span class="mono">80%</span></div>
+              <div class="skill-bar">
+                <div class="skill-fill" data-w="80"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PORTFOLIO -->
+  <section id="portfolio" class="portfolio">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-label">// my work</span>
+        <h2 class="section-title">Featured <em>Projects</em></h2>
+        <p class="section-sub">End-to-end analytics projects — from raw data to actionable insight.</p>
+      </div>
+      <div class="filter-bar">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="sql">SQL</button>
+        <button class="filter-btn" data-filter="power-bi">Power BI</button>
+        <button class="filter-btn" data-filter="python">Python</button>
+      </div>
+    </div>
+
+    <div class="portfolio-grid" id="portfolioGrid">
+
+      <!-- PROJECT 01 -->
+      <article class="p-card reveal" data-cat="sql" data-project="1" role="button" tabindex="0">
+        <div class="p-card-header" style="--c1:#0f2027;--c2:#203a43;">
+          <!-- Replace src with your actual screenshot, e.g. ./images/rfm-dashboard.png -->
+          <img class="p-card-img" src="./images/rfm-dashboard.JPG" alt="Customer Segmentation Dashboard"
+            onerror="this.style.display='none'">
+          <span class="p-card-num mono">01</span>
+        </div>
+        <div class="p-card-body">
+          <span class="p-tag">PostgreSQL · Excel · RFM Analysis</span>
+          <h3>Customer Segmentation Analysis</h3>
+          <p>
+            Segmented 5,360 customers from a 1M+ row UK e-commerce dataset using RFM methodology in PostgreSQL.
+            Used window functions (NTILE) and CTEs to score customers 1–5, identifying Champions (24%) with avg
+            spend of ~£9,000.
+          </p>
+          <span class="p-link">View Details <span>→</span></span>
+        </div>
+      </article>
+
+      <!-- PROJECT 02 -->
+      <article class="p-card reveal" data-cat="power-bi" data-project="2" role="button" tabindex="0">
+        <div class="p-card-header" style="--c1:#1e3c72;--c2:#2a5298;">
+          <!-- Replace src with your actual screenshot, e.g. ./images/sales-dashboard.png -->
+          <img class="p-card-img" src="./images/sales-dashboard.png" alt="Sales Data Analysis Dashboard"
+            onerror="this.style.display='none'">
+          <!-- <span class="p-card-emoji">💰</span> -->
+          <span class="p-card-num mono">02</span>
+        </div>
+        <div class="p-card-body">
+          <span class="p-tag">Power BI · Python · Statistics</span>
+          <h3>Sales Data Analysis</h3>
+          <p>
+            Identified revenue drivers through high-value transaction analysis. Built a Power BI dashboard with
+            KPI metrics (avg sales ≈ 4,136; 95% CI: 3,781–4,491) to support data-driven decisions.
+          </p>
+          <span class="p-link">View Details <span>→</span></span>
+        </div>
+      </article>
+
+      <!-- PROJECT 03 -->
+      <article class="p-card reveal" data-cat="python" data-project="3" role="button" tabindex="0">
+        <div class="p-card-header" style="--c1:#134e5e;--c2:#71b280;">
+          <!-- Replace src with your actual screenshot, e.g. ./images/trade-dashboard.png -->
+          <img class="p-card-img" src="./images/trade-dashboard.png" alt="India Trade Analysis Dashboard"
+            onerror="this.style.display='none'">
+          <!-- <span class="p-card-emoji">🌏</span> -->
+          <span class="p-card-num mono">03</span>
+        </div>
+        <div class="p-card-body">
+          <span class="p-tag">Python · PostgreSQL · Power BI</span>
+          <h3>India Trade Analysis Dashboard</h3>
+          <p>
+            Processed 10+ years of trade data across 50+ commodities. Improved query speed by 25% and
+            identified key partner countries driving India's trade performance.
+          </p>
+          <span class="p-link">View Details <span>→</span></span>
+        </div>
+      </article>
+
+      <!-- PROJECT 04 -->
+      <!-- <article class="p-card reveal" data-cat="sql" data-project="4" role="button" tabindex="0">
+        <div class="p-card-header" style="--c1:#3a1c71;--c2:#d76d77;">
+          <img class="p-card-img" src="./images/hr-dashboard.png" alt="HR Analytics Dashboard"
+            onerror="this.style.display='none'">
+          <span class="p-card-emoji">📊</span>
+          <span class="p-card-num mono">04</span>
+        </div>
+        <div class="p-card-body">
+          <span class="p-tag">SQL · Power BI · Excel</span>
+          <h3>HR Analytics Dashboard</h3>
+          <p>
+            Analysed employee attrition patterns across departments using SQL queries on HR data.
+            Built a Power BI dashboard tracking headcount, attrition rate, tenure distribution,
+            and department-level KPIs to support workforce planning.
+          </p>
+          <span class="p-link">View Details <span>→</span></span>
+        </div>
+      </article> -->
+
+    </div>
+  </section>
+  <!-- ====================================
+       PROJECT MODAL OVERLAY
+  ═══════════════════════════════════════  -->
+  <div class="modal-overlay" id="projectModal" aria-hidden="true">
+    <div class="modal-panel" role="dialog" aria-modal="true">
+
+      <!-- close button -->
+      <button class="modal-close" id="modalClose" aria-label="Close">
+        <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+          <path d="M4 4l12 12M16 4L4 16" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" />
+        </svg>
+      </button>
+
+      <!-- scrollable body -->
+      <div class="modal-body">
+
+        <!-- hero banner -->
+        <div class="modal-banner" id="modalBanner">
+          <span class="modal-emoji" id="modalEmoji">👥</span>
+          <span class="modal-num mono" id="modalNum">01</span>
+        </div>
+
+        <!-- meta row -->
+        <div class="modal-meta">
+          <span class="modal-tag" id="modalTag"></span>
+          <span class="modal-date mono" id="modalDate"></span>
+        </div>
+
+        <h2 class="modal-title" id="modalTitle"></h2>
+        <p class="modal-overview" id="modalOverview"></p>
+
+        <!-- key stats strip -->
+        <div class="modal-stats" id="modalStats"></div>
+
+        <!-- image gallery -->
+        <div class="modal-gallery-label mono">// project visuals</div>
+        <div class="modal-gallery" id="modalGallery"></div>
+
+        <!-- what I did -->
+        <div class="modal-section">
+          <h4 class="modal-sh">What I Did</h4>
+          <ul class="modal-bullets" id="modalBullets"></ul>
+        </div>
+
+        <!-- tools used -->
+        <div class="modal-section">
+          <h4 class="modal-sh">Tools & Technologies</h4>
+          <div class="modal-tools" id="modalTools"></div>
+        </div>
+
+        <!-- outcome -->
+        <div class="modal-outcome" id="modalOutcome"></div>
+
+        <!-- CTA -->
+        <div class="modal-cta-row">
+          <a class="btn-primary modal-cta" id="modalGithub" href="#" target="_blank">
+            <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor">
+              <path
+                d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z" />
+            </svg>
+            <span>View on GitHub</span>
+          </a>
+          <button class="btn-ghost modal-prev-next" id="modalPrev">← Prev</button>
+          <button class="btn-ghost modal-prev-next" id="modalNext">Next →</button>
+        </div>
+
+      </div><!-- /modal-body -->
+    </div>
+  </div>
+
+  <!-- PLATFORMS -->
+  <section id="platforms" class="platforms">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-label">// find my work</span>
+        <h2 class="section-title">My <em>Platforms</em></h2>
+        <p class="section-sub">Where I publish and share projects, dashboards, and notebooks.</p>
+      </div>
+      <div class="platforms-grid">
+        <div class="plat-card reveal">
+          <div class="plat-num mono">01</div>
+          <div class="plat-icon">🐙</div>
+          <h3>GitHub</h3>
+          <p>All source code, SQL scripts, Python notebooks, and project files live here.</p>
+          <a href="https://github.com/akashsuvarnkar82" target="_blank" class="plat-link">Visit →</a>
+        </div>
+        <!-- <div class="plat-card reveal">
+          <div class="plat-num mono">02</div>
+          <div class="plat-icon">📊</div>
+          <h3>NovyPro</h3>
+          <p>Published Power BI dashboards including Sales and Trade Analysis for interactive exploration.</p>
+          <a href="#" class="plat-link">Visit →</a>
+        </div> -->
+        <div class="plat-card reveal">
+          <div class="plat-num mono">03</div>
+          <div class="plat-icon">🏆</div>
+          <h3>HackerRank</h3>
+          <p>SQL (Intermediate) certified — complex queries, joins, subqueries, and window functions.</p>
+          <a href="https://www.hackerrank.com/profile/suvarnakarakash1" target="_blank" class="plat-link">Visit →</a>
+        </div>
+        <div class="plat-card reveal">
+          <div class="plat-num mono">04</div>
+          <div class="plat-icon">📊</div>
+          <h3>Kaggle</h3>
+          <p>Active on Kaggle — working on datasets, data analysis, and machine learning projects.</p>
+          <a href="https://www.kaggle.com/akashsuvarnkar" target="_blank" class="plat-link">Visit →</a>
+        </div>
+        <div class="plat-card reveal">
+          <div class="plat-num mono">04</div>
+          <div class="plat-icon">💼</div>
+          <h3>LinkedIn</h3>
+          <p>Professional updates, project write-ups, and networking connections.</p>
+          <a href="http://www.linkedin.com/in/akashsuvarnkar" target="_blank" class="plat-link">Visit →</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ACHIEVEMENTS -->
+  <section id="achievements" class="achievements">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-label">// milestones</span>
+        <h2 class="section-title">Achievements <em>& Certs</em></h2>
+        <p class="section-sub">Certifications and milestones that have shaped my analytical skill set.</p>
+      </div>
+      <div class="timeline">
+
+        <div class="t-item reveal">
+          <div class="t-date">
+            <strong>Apr</strong>
+            <span>2026</span>
+          </div>
+          <div class="t-connector">
+            <div class="t-dot"></div>
+            <div class="t-line"></div>
+          </div>
+          <div class="t-card">
+            <h3>HackerRank SQL (Intermediate) Certification</h3>
+            <p>Demonstrated proficiency in complex SQL queries, joins, subqueries, and window functions through a
+              hands-on timed assessment on the HackerRank platform.</p>
+            <a class="ach-link" href="https://www.hackerrank.com/certificates/161d60649d6b" target="_blank">
+              View Certificate →
+            </a>
+          </div>
+        </div>
+
+        <div class="t-item reveal">
+          <div class="t-date">
+            <strong>Dec</strong>
+            <span>2024</span>
+          </div>
+          <div class="t-connector">
+            <div class="t-dot"></div>
+            <div class="t-line"></div>
+          </div>
+          <div class="t-card">
+            <h3>Kaggle Pandas Certification</h3>
+            <p>Completed Kaggle Pandas course — worked with Series and DataFrames, data cleaning, filtering, grouping,
+              and real-world dataset analysis.</p>
+            <a class="ach-link" href="https://www.kaggle.com/learn/certification/akashsuvarnkar/pandas" target="_blank">
+              View Certificate →
+            </a>
+          </div>
+        </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="contact">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-label">// get in touch</span>
+        <h2 class="section-title">Let's <em>Connect</em></h2>
+        <p class="section-sub">Have a project idea or opportunity? I'd love to hear from you.</p>
+      </div>
+      <div class="contact-grid">
+        <div class="contact-info reveal">
+          <p>Whether you need a freelance analyst, want to collaborate on a dataset, or are curious about my work —
+            drop a message and I'll get back within 24 hours.</p>
+          <div class="contact-items">
+            <div class="contact-item">
+              <div class="c-icon">📧</div>
+              <div>
+                <span class="c-label">Email</span>
+                <a href="mailto:suvarnkarakash06@gmail.com">suvarnkarakash06@gmail.com</a>
+              </div>
+            </div>
+            <div class="contact-item">
+              <div class="c-icon">📱</div>
+              <div>
+                <span class="c-label">Phone</span>
+                <a href="tel:+918285208222">+91 82852 08222</a>
+              </div>
+            </div>
+            <div class="contact-item">
+              <div class="c-icon">📍</div>
+              <div>
+                <span class="c-label">Location</span>
+                <span>Pune, Maharashtra, India</span>
+              </div>
+            </div>
+            <div class="contact-item">
+              <div class="c-icon">🔗</div>
+              <div>
+                <span class="c-label">LinkedIn</span>
+                <a href="https://www.linkedin.com/in/akash-suvarnkar"
+                  target="_blank">linkedin.com/in/akash-suvarnkar</a>
+              </div>
+            </div>
+            <div class="contact-item">
+              <div class="c-icon">🐙</div>
+              <div>
+                <span class="c-label">GitHub</span>
+                <a href="https://github.com/akashsuvarnkar82" target="_blank">github.com/akashsuvarnkar82</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <form class="contact-form reveal" id="contactForm">
+          <div class="form-row">
+            <div class="form-group">
+              <label>Name</label>
+              <input type="text" name="name" placeholder="Your full name" required />
+            </div>
+            <div class="form-group">
+              <label>Email</label>
+              <input type="email" name="email" placeholder="your@email.com" required />
+            </div>
+          </div>
+          <div class="form-group">
+            <label>Subject</label>
+            <input type="text" name="subject" placeholder="What's this about?" required />
+          </div>
+          <div class="form-group">
+            <label>Message</label>
+            <textarea name="message" placeholder="Tell me about your project..." rows="5"></textarea>
+          </div>
+          <button type="submit" class="btn-primary form-btn">
+            <span id="btnText">Send Message</span>
+            <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+              <path d="M2 8h12M9 4l5 4-5 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+                stroke-linejoin="round" />
+            </svg>
+          </button>
+          <!-- Success / error messages -->
+          <p class="form-msg form-msg--success" id="formSuccess" hidden>
+            ✓ Message sent! I'll get back to you within 24 hours.
+          </p>
+          <p class="form-msg form-msg--error" id="formError" hidden>
+            ✗ Something went wrong. Please email me directly at suvarnkarakash06@gmail.com
+          </p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="container footer-inner">
+      <a class="nav-logo" href="#home">
+        <span class="logo-bracket">{</span>AS<span class="logo-bracket">}</span>
+      </a>
+      <p class="footer-copy">© 2026 Akash Suvarnkar · Data Analyst Portfolio</p>
+      <div class="footer-links">
+        <a href="https://github.com/akashsuvarnkar82" target="_blank">GitHub</a>
+        <a href="https://www.linkedin.com/in/akash-suvarnkar" target="_blank">LinkedIn</a>
+        <a href="https://www.hackerrank.com/profile/suvarnakarakash1" target="_blank">HackerRank</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
