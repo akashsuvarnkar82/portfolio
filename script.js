@@ -400,9 +400,78 @@ document.addEventListener("DOMContentLoaded", () => {
       github: "https://github.com/akashsuvarnkar82/pnl-analysis",
     },
     {
-      id: 4,
+      id: 5,
+      emoji: "🛒",
+      num: "05",
+      tag: "Python · Flask · Stripe",
+      date: "Jul 2026",
+      title: "Aura Commerce",
+      gradient: { c1: "#1A2B4A", c2: "#2E75B6" },
+      overview:
+        "A full-stack e-commerce platform built from the ground up — Flask/SQLAlchemy REST API on the backend, vanilla HTML/CSS/JS on the frontend — covering the complete customer journey from browsing and cart management through secure checkout with real Stripe payment integration.",
+      stats: [
+        { value: "JWT", label: "Auth & Sessions" },
+        { value: "Stripe", label: "Payment Gateway" },
+        { value: "4-Day", label: "Build Sprint" },
+        { value: "100%", label: "Order History Tracking" },
+      ],
+      bullets: [
+        "Designed and built a RESTful API with Flask and SQLAlchemy, modelling Users, Products, Cart, Orders, and OrderItems.",
+        "Implemented secure JWT-based authentication with bcrypt password hashing for user registration and login.",
+        "Integrated Stripe's payment API (test mode) to handle real checkout flows with a live payment form.",
+        "Built a dark-mode vanilla JS frontend with token-based session handling via localStorage.",
+        "Enabled cross-origin communication between frontend and backend locally using Flask-CORS.",
+        "Added an order history page so users can review past purchases after checkout.",
+      ],
+      tools: [
+        "Python",
+        "Flask",
+        "SQLAlchemy",
+        "JWT",
+        "bcrypt",
+        "Stripe API",
+        "HTML/CSS/JS",
+        "Flask-CORS",
+        "pytest",
+      ],
+      outcome:
+        "<strong>Outcome:</strong> Shipped a working end-to-end e-commerce app with authenticated checkout and real payment processing — a hands-on deep dive into backend API design, auth, and payment integration outside the usual data-analytics stack.",
+      images: [
+        {
+          src: "./images/aura-commerce-home.JPG",
+          alt: "Aura Commerce Storefront",
+        },
+        {
+          src: "./images/4-login-logout.JPG",
+          alt: "Login and Logout Flow",
+        },
+        {
+          src: "./images/5-admin-panel.JPG",
+          alt: "Admin Panel",
+        },
+        {
+          src: "./images/6-prodcuct-add.JPG",
+          alt: "Add Product Flow",
+        },
+        {
+          src: "./images/aura-commerce-cart.JPG",
+          alt: "Cart and Checkout Flow",
+        },
+        {
+          src: "./images/8-payment-gate-way.JPG",
+          alt: "Stripe Payment Gateway",
+        },
+        {
+          src: "./images/aura-commerce-orders.JPG",
+          alt: "Order History Page",
+        },
+      ],
+      github: "https://github.com/akashsuvarnkar82/Aura-Commerce",
+    },
+    {
+      id: 5,
       emoji: "🌏",
-      num: "04",
+      num: "05",
       tag: "Python · PostgreSQL · Power BI",
       date: "Jan 2026",
       title: "India Trade Analysis Dashboard",
@@ -449,37 +518,6 @@ document.addEventListener("DOMContentLoaded", () => {
       ],
       github: "https://github.com/akashsuvarnkar82/India-Trade-Analytics",
     },
-    // {
-    //   id: 4,
-    //   emoji: '📊',
-    //   num: '04',
-    //   tag: 'SQL · Power BI · Excel',
-    //   date: 'May 2026',
-    //   title: 'HR Analytics Dashboard',
-    //   gradient: { c1: '#3a1c71', c2: '#d76d77' },
-    //   overview: 'Analysed employee attrition patterns, tenure distribution, and department-level headcount across an HR dataset — translating raw workforce data into a Power BI dashboard that helps HR teams identify retention risks and plan hiring.',
-    //   stats: [
-    //     { value: '15%',  label: 'Attrition Rate' },
-    //     { value: '6',    label: 'Departments' },
-    //     { value: '3.2yr', label: 'Avg Tenure' },
-    //     { value: '1',    label: 'Dashboard' },
-    //   ],
-    //   bullets: [
-    //     'Cleaned and structured HR data in SQL — handling nulls, normalising department names, and computing tenure from hire dates.',
-    //     'Identified the top 3 departments with highest attrition using GROUP BY and window functions.',
-    //     'Segmented employees by age band, tenure bucket, and job role to surface patterns in voluntary exits.',
-    //     'Built a Power BI dashboard with KPI cards (headcount, attrition %, avg tenure), bar charts, and slicers for interactive filtering.',
-    //     'Created an Excel summary sheet for quick stakeholder sharing without requiring Power BI Desktop.',
-    //   ],
-    //   tools: ['SQL', 'MySQL', 'Power BI', 'DAX', 'Excel', 'Data Cleaning', 'Attrition Analysis', 'KPI Cards'],
-    //   outcome: '<strong>Outcome:</strong> Delivered a dashboard that pinpointed attrition hotspots by department and tenure band — enabling HR to focus retention efforts on the highest-risk employee groups.',
-    //   images: [
-    //     { src: './images/hr-dashboard.png',   alt: 'HR Analytics Power BI Dashboard' },
-    //     { src: './images/attrition-chart.png', alt: 'Attrition by Department Chart' },
-    //     { src: './images/tenure-chart.png',    alt: 'Tenure Distribution Chart' },
-    //   ],
-    //   github: 'https://github.com/akashsuvarnkar82/hr-analytics-dashboard',
-    // },
   ];
 
   const modalOverlay = document.getElementById("projectModal");
