@@ -402,7 +402,7 @@ document.addEventListener("DOMContentLoaded", () => {
     {
       id: 4,
       emoji: "🛒",
-      num: "05",
+      num: "04",
       tag: "Python · Flask · Stripe",
       date: "Jul 2026",
       title: "Aura Commerce",
