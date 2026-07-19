@@ -400,7 +400,7 @@ document.addEventListener("DOMContentLoaded", () => {
       github: "https://github.com/akashsuvarnkar82/pnl-analysis",
     },
     {
-      id: 5,
+      id: 4,
       emoji: "🛒",
       num: "05",
       tag: "Python · Flask · Stripe",
@@ -458,7 +458,7 @@ document.addEventListener("DOMContentLoaded", () => {
           alt: "Cart and Checkout Flow",
         },
         {
-          src: "./images/8-payment-gate-way.JPG",
+          src: "./images/8-payment-gateway.JPG",
           alt: "Stripe Payment Gateway",
         },
         {
